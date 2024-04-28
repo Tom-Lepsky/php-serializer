@@ -1,0 +1,20 @@
+{
+    "name": "matryoshka/serializer",
+    "description": "php serializer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Matryoshka\\Serializer\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Podpolschik"
+        }
+    ],
+    "require": {}
+}
