@@ -1,8 +1,9 @@
 <?php
 
-namespace common\serializers\Serializer;
+namespace Matryoshka\Serializer;
 
-use common\serializers\Serializer\Encoder\EncoderException;
+
+use Matryoshka\Serializer\Encoder\EncoderException;
 
 /** @template-covariant T of object */
 interface SerializerInterface

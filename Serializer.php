@@ -1,10 +1,10 @@
 <?php
 
-namespace common\serializers\Serializer;
+namespace Matryoshka\Serializer;
 
-use common\serializers\Serializer\Encoder\EncoderInterface;
-use common\serializers\Serializer\Normalizer\NormalizerInterface;
 use Exception;
+use Matryoshka\Serializer\Encoder\EncoderInterface;
+use Matryoshka\Serializer\Normalizer\NormalizerInterface;
 
 class Serializer implements SerializerInterface
 {
