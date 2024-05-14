@@ -1,5 +1,5 @@
 {
-    "name": "adastra/serializer",
+    "name": "ad-astra/serializer",
     "description": "php serializer",
     "type": "library",
     "license": "MIT",
@@ -16,5 +16,7 @@
             "name": "Tom Lepsky"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.1"
+    }
 }
