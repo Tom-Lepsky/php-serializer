@@ -1,7 +1,7 @@
 # **PHP Serializer**
 
-Simple php serializer, allows convert object to string of the specified format (only json and urlencoded supported now)  
-this is serialization process, and visa versa: creating object from string (json format) - deserialization process  
+Simple php serializer, allows convert object to string of the specified format (only json and urlencoded  
+supported now) and visa versa: creating object from string (json format) - deserialization process  
 ### Supporting 
 * _normalization groups_
 * _circular reference_
@@ -12,6 +12,12 @@ this is serialization process, and visa versa: creating object from string (json
 * _straight access to properties or via getter/setter_
 
 ## **Usage**
+- [Basic](#basic)
+- [Skipping null values](#skipping-null-values)
+- [Using groups](#using-groups)
+- [Naming](#naming)
+- [Typed arrays](#typed-arrays)
+- [Serialization and Deserialization strategy](#serialization-and-deserialization-strategy)
 
 ### Basic
 Let's imagine that we have a class 
@@ -222,7 +228,7 @@ Note, if you omit `ArrayType`, you will get simply assoc php array, cause there'
 
 ---
 
-### Serialization/Deserialization strategy
+### Serialization and Deserialization strategy
 You can even specify different behaviour for serialization/deserialization via `NormalizationContext` 
 and `DenormalizationContext` by passing attributes into them.
 example
