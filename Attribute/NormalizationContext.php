@@ -1,6 +1,6 @@
 <?php
 
-namespace Matryoshka\Serializer\Attribute;
+namespace AdAstra\Serializer\Attribute;
 
 use Attribute;
 

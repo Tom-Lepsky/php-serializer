@@ -1,7 +1,7 @@
 # **PHP Serializer**
 
-Simple php serializer, allows convert object to string of the specified format (only json and urlencoded  
-supported now) and visa versa: creating object from string (json format) - deserialization process  
+Fast, simple and reliable php serializer, allows convert object to string of the specified format (only json and urlencoded  
+supported now) and vice versa: creating object from string (json format) - deserialization process  
 ### Supporting 
 * _normalization groups_
 * _circular reference_

@@ -1,10 +1,10 @@
 <?php
 
-namespace Matryoshka\Serializer;
+namespace AdAstra\Serializer;
 
 use Exception;
-use Matryoshka\Serializer\Encoder\EncoderInterface;
-use Matryoshka\Serializer\Normalizer\NormalizerInterface;
+use AdAstra\Serializer\Encoder\EncoderInterface;
+use AdAstra\Serializer\Normalizer\NormalizerInterface;
 
 class Serializer implements SerializerInterface
 {

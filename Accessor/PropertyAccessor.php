@@ -1,9 +1,9 @@
 <?php
 
-namespace Matryoshka\Serializer\Accessor;
+namespace AdAstra\Serializer\Accessor;
 
-use Matryoshka\Serializer\Normalizer\ObjectNormalizer;
-use Matryoshka\Serializer\SerializerException;
+use AdAstra\Serializer\Normalizer\ObjectNormalizer;
+use AdAstra\Serializer\SerializerException;
 use ReflectionClass, ReflectionException, ReflectionProperty, Reflector, ReflectionMethod, ReflectionParameter;
 
 class PropertyAccessor

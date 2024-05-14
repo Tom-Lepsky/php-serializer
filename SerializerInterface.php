@@ -1,9 +1,9 @@
 <?php
 
-namespace Matryoshka\Serializer;
+namespace AdAstra\Serializer;
 
 
-use Matryoshka\Serializer\Encoder\EncoderException;
+use AdAstra\Serializer\Encoder\EncoderException;
 
 /** @template-covariant T of object */
 interface SerializerInterface

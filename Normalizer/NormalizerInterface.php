@@ -1,6 +1,6 @@
 <?php
 
-namespace Matryoshka\Serializer\Normalizer;
+namespace AdAstra\Serializer\Normalizer;
 
 /** @template-covariant T of object */
 interface NormalizerInterface

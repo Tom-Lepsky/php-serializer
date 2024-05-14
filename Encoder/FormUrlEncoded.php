@@ -1,6 +1,6 @@
 <?php
 
-namespace Matryoshka\Serializer\Encoder;
+namespace AdAstra\Serializer\Encoder;
 
 class FormUrlEncoded implements EncoderInterface
 {

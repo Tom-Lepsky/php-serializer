@@ -1,6 +1,6 @@
 <?php
 
-namespace Matryoshka\Serializer;
+namespace AdAstra\Serializer;
 
 use Exception;
 

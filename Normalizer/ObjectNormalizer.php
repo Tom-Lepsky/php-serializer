@@ -1,10 +1,10 @@
 <?php
 
-namespace Matryoshka\Serializer\Normalizer;
+namespace AdAstra\Serializer\Normalizer;
 
-use Matryoshka\Serializer\Accessor\{AccessorException, PropertyAccessor, PropertyMetaData};
+use AdAstra\Serializer\Accessor\{AccessorException, PropertyAccessor, PropertyMetaData};
 use ArrayAccess, Iterator, ReflectionClass, ReflectionProperty, ReflectionEnum, ReflectionException, Throwable, UnitEnum;
-use Matryoshka\Serializer\Attribute\{ArrayType,
+use AdAstra\Serializer\Attribute\{ArrayType,
     DenormalizationContext,
     Groups,
     Ignore,

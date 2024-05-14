@@ -1,6 +1,6 @@
 <?php
 
-namespace Matryoshka\Serializer\Encoder;
+namespace AdAstra\Serializer\Encoder;
 
 interface EncoderInterface
 {

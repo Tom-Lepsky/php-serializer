@@ -1,9 +1,9 @@
 <?php
 
-namespace Matryoshka\Serializer\Accessor;
+namespace AdAstra\Serializer\Accessor;
 
 use ArrayAccess, Iterator;
-use Matryoshka\Serializer\Attribute\{ArrayType, Nullable};
+use AdAstra\Serializer\Attribute\{ArrayType, Nullable};
 use ReflectionClass;
 use ReflectionException;
 

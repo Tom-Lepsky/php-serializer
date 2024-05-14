@@ -1,11 +1,11 @@
 {
-    "name": "matryoshka/serializer",
+    "name": "adastra/serializer",
     "description": "php serializer",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Matryoshka\\Serializer\\": ""
+            "AdAstra\\Serializer\\": ""
         },
         "exclude-from-classmap": [
             "/Tests/"
